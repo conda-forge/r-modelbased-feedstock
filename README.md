@@ -1,11 +1,11 @@
-About r-modelbased
-==================
+About r-modelbased-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-modelbased-feedstock/blob/main/LICENSE.txt)
 
 Home: https://easystats.github.io/modelbased/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-modelbased-feedstock/blob/main/LICENSE.txt)
 
 Summary: Implements a general interface for model-based estimations for a wide variety of models (see list of supported models using the function 'insight::supported_models()'), used in the computation of marginal means, contrast analysis and predictions.
 
