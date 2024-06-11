@@ -1,4 +1,4 @@
-{% set version = "0.8.7" %}
+{% set version = "0.8.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/modelbased_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/modelbased/modelbased_{{ version }}.tar.gz
-  sha256: 7c9761c635f0b1ba129e35dd1f6c6361d7e039ac4b3d8098beef578abbf2ea77
+  sha256: 866378a6eb9113e480092dba1502ab073dfd4375ea6c3171cfbde87beb8b7a3a
 
 build:
   merge_build_host: true  # [win]
