@@ -1,4 +1,4 @@
-{% set version = "0.8.9" %}
+{% set version = "0.9.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/modelbased_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/modelbased/modelbased_{{ version }}.tar.gz
-  sha256: c2ce6d9b32db3711c5f467aec9cc1c71751c562b6c03065c3bccc53e0ae33ef8
+  sha256: 8b7ae898c832b481b2acc141d7d6b12e53e46aae665a365517307e6a8b39db26
 
 build:
   number: 0
